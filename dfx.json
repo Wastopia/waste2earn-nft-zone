@@ -1,22 +1,36 @@
 {
     "canisters": {
- 
+
+        "assets": {
+            "frontend": {
+                "entrypoint": "dist/index.html"
+            },
+            "source": ["dist/"],
+            "type": "assets",
+            "declarations": {
+                "output": "frontend/declarations/assets"
+            }
+        },
+    
         "icrc7": {
-            "main": "example/main.mo",
+            "main": "contract/main.mo",
             "type": "motoko",
-            "gzip": true
+            "gzip": true,
+            "declarations": {
+                "output": "frontend/declarations/icrc7"
+            }
         }
         
-    },
-    "defaults": {
-        "build": {
-            "args": "",
-            "packtool": "mops sources"
         },
-        "replica": {
-            "subnet_type": "system"
-        }
-    },
-    "dfx": "0.24.3",
-    "version": 1
+        "defaults": {
+            "build": {
+                "args": "",
+                "packtool": "mops sources"
+            },
+            "replica": {
+                "subnet_type": "system"
+            }
+        },
+        "dfx": "0.24.3",
+        "version": 1
 }

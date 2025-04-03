@@ -1,6 +1,8 @@
 [package]
-name = "icrc-nft-mo"
-version = "0.5.0"
+name = "waste2earn-nft"
+version = "0.1.0"
+authors = ["Mhok Serob <waste2earn.xyz@gmail.com>"]
+edition = "2023"
 description = "icrc based nft example for motoko"
 repository = "https://github.com/PanIndustrial-Org/icrc_nft.mo"
 keywords = [ "nft" ]

@@ -1,0 +1,11 @@
+{
+  "name": "waste2earn-nft-zone",
+  "module": "frontend/index.jsx",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
